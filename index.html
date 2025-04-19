@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Recommender</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie Recommender</h1>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="e.g. romantic bollywood movie 2015" />
+      <button id="search-button">Search</button>
+    </div>
+    <div id="loading" class="hidden"></div>
+    <div id="results-header" class="hidden">
+      Found <span id="results-count"></span> recommendations:
+    </div>
+    <div id="no-results" class="hidden"></div>
+    <div id="results-grid" class="results-grid"></div>
+  </div>
+</body>
+</html>
